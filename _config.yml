@@ -1,0 +1,263 @@
+title: 박상훈의 포트폴리오
+name: 박상훈
+email: 1235parksh@naver.com
+description: >-
+  Cyber Security
+
+
+baseurl: ""
+url: "https://sanghoonpf.github.io"
+
+
+# profile 이미지
+profile_image: images/about.jpg
+
+
+# SNS 아이디
+#facebook_id: babycheetah
+instagram_id: parksh.sc
+
+
+# Youtube vid
+youtube_vid: #
+
+
+# Custom Color
+primary: 2c98f0 #b72cf0
+primary_hover: 44A4F2 #9a2dc7
+color_1: 2c98f0 #b72cf0
+color_2: ec5453
+color_3: f9bf3f
+color_4: a84cb8
+color_5: 2fa499
+color_6: 4054b2
+
+
+# slider type 0  (텍스트가 우측 정렬된 슬라이더)
+slider_0: # 형식에 맞추어 항목 추가
+- background_url: images/cover_bg_3.jpg
+  title: SangHoon <br> portfoilo site
+  position: absolute
+  tranform: tranlste( -50%, -50% )
+  left: -200px
+  bottom: 80px
+
+
+# slider type 1  (텍스트가 좌측 정렬된 슬라이더)
+slider_1: # 형식에 맞추어 항목 추가
+- background_url: images/img_bg_4.jpg
+  title: I will be<br>Information Security Professional
+  subtitle: >- 
+    <br>
+    이루고자하는 
+    꿈을 이루기 위해 
+    노력하는 
+    박상훈입니다.
+
+
+# About
+about_meta: About Me
+about_header: >- 
+  "성장하고있는 대학생"
+about_introduce: >-
+  "안녕하세요. 정보보안 전문가를 꿈꾸는 대학생, 박상훈입니다."
+about_content: >-
+  자기소개...추가하자
+
+about_services: # 형식에 맞추어 항목 추가 아이콘은 css 아이콘문에 있다 가져다쓰자
+- icon: icon-data
+  name: Server
+- icon: icon-monitor
+  name: Web
+- icon: icon-phone3
+  name: App
+- icon: icon-code
+  name: Python
+
+about_box_content: > 
+  "<strong>악어</strong>는 한 번 물면 놓지 않는다" 라는 말이 있습니다. <br>
+  <br>
+  저는 아무때나 아무것이나 물면 놓지 않는것이 아닌 <br>
+  원하고자 하는 옳은 목표가 있다면 절대 내려 놓지 않을것입니다. 
+
+about_box_content_color: rgb(0,0,0)
+
+about_box_button:
+  link: #
+  name: 이분야의 '<strong>악어</strong>'가 되겠습니다.
+
+
+# Tech  skill
+tech_meta: TECH SKILLS
+tech_header: 저는 현재 이것을 할 수 있습니다.
+tech_content: markdown으로 할수 있으면 좋을듯
+tech_list: # 형식에 맞추어 항목 추가
+- name: Python
+  color: color-1
+  animation: fadeInLeft
+  percent: 60
+  mark: 60
+  content: 파이썬 기초, 데이터 분석과 시각화를 공부하고 파이썬 언어의 기본적인 문법에 대해 알고 있으며, 자료구조 및 알고리즘을 파이썬으로 공부하였습니다.
+- name: 모의해킹
+  color: color-2
+  animation: fadeInRight
+  percent: 20
+  mark: 30
+  content: 알아갈수록, 해결할수록 성취감을 느끼며 성장하고 있음을 느낄 수 있고 계속해서 학습하고 있습니다 ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ.
+- name: AWS
+  color: color-3
+  animation: fadeInLeft
+  percent: 20
+  mark: 30
+  content: AWS를 서버로 활용하며, 웹해킹 프로젝트를 해보았습니다. 현재는 도커에 대해 학습하고 있습니다.
+- name: Github
+  color: color-4
+  animation: fadeInRight
+  percent: 40
+  mark: 30
+  content:  github서버를 활용하여 블로그 및 포트폴리오 사이트를 관리합니다.
+
+tech_desc: 앞으로 연구한것을 서비스화하기 위해서 <strong>javascript, Node JS, 리엑트, 스피링, 헤로쿠, python anywhere 및 아마존 AWS, docker</strong>등을 계속해서 조금씩 공부할 생각입니다. 
+
+
+# Project
+project_meta: My Work
+project_header: PROJECT
+project_introduce: <span>개인 프로젝트</span><span>팀 프로젝트</span><span>Business</span>
+project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니다:)    # 더보기 내용
+project_load_more_url: #
+
+project_my_name: 개인프로젝트
+
+project_my: # 형식에 맞추어 항목 추가
+- background_url: images/personal_project1.PNG
+  animation: fadeInLeft
+  name: 취약점 진단 보고서(2022.0x)
+  description: 정보보호 체계에 맞게 진단한 취약점 진단 보고서 입니다.  
+  detail_url: #
+  readmore_url: pdf/Vulnerability.pdf
+
+- background_url: images/blog-1.PNG
+  animation: fadeInLeft
+  name: git 블로그 생성, 관리
+  description: github의 사용자가 증가하고, 협업을 통해 여러사용자가 이용이가능하기에 github에 대해 공부하고 블로그 운영을위해 생성했습니다.
+  detail_url: https://sanghoonsc.github.io
+  readmore_url: pdf/githubblog.pdf
+
+project_team_name: 팀프로젝트
+project_team: # 형식에 맞추어 항목 추가
+- background_url: images/team_project3.PNG
+  animation: fadeInRight
+  name: 팀프로젝트 미정 (2022.0x)
+  description: 미정 팀프로젝트입니다 ㅎㅎㅎ
+  detail_url: #
+  readmore_url: #
+
+- background_url: images/team_project3.PNG
+  animation: fadeInRight
+  name: 팀프로젝트 미정입니다 ㅎ(2022.0x)
+  description: 추가예정 ㅎㅎㅎ
+  detail_url: #
+  readmore_url: #
+
+project_business_name: Business
+project_business: # 형식에 맞추어 항목 추가
+- background_url: images/my_business.PNG
+  animation: fadeInTop
+  name: 추가예정(2022.0x)
+  description: >-
+    추가예정 
+  detail_url: #
+  readmore_url: #
+
+
+# Experience
+exp_meta: What have I achieved?
+exp_header: 저는 이런 "경험"들을 해봤습니다.
+exp_content: 현재 개발로서는 큰 도움은 되지 않을 수 있지만, 회사에서 필요로 한다면 이런 역량도 가지고 있습니다.
+exp_services: # 형식에 맞추어 항목 추가
+- name: 매니지먼트
+  color: color-1
+  icon: icon-bulb
+  content: 6개의 프로젝트 모두 팀장을 맡아 각 팀원들의 능력을 파악하고 업무를 배정하고 관리하였습니다.
+- name: 기술습득
+  color: color-2
+  icon: icon-home
+  content: 제가 선택한 길, 항상 열정을 다해 공부하며 새로운 기술에 대해 즐거운 마음으로 배웁니다.
+- name: 프로젝트
+  color: color-4
+  icon: icon-phone3
+  content: 다양한 프로젝트를 기획, 진행 해왔기에 업무에 대한 협력과 배분이 익숙합니다. 새로운 프로젝트에 도전적입니다.
+
+
+
+# Career
+carerr_meta: career
+career_header: Work Career
+career_list:
+- name: 다녀온다면..적어보자
+  date: 2022.0x~2022.xx
+  content: 어디어디에서 뭐 하고왔다.. 정도
+  color: color-1
+  icon: icon-pen2
+  animation: fadeInLeft
+  # url : 만약 증거있다면 링크해보자
+- name: 다녀온다면.. 적어보자2
+  date: 2021.0x~2021.1x
+  content: 어디에서 뭐하고왔다 정도..
+  color: color-2
+  icon: icon-pen2
+  animation: fadeInRight
+
+
+# Education
+edu_meta: Education
+edu_header: Education
+edu_list:
+- title: k UNIVERSITY
+  subtitle: xx대학교 xx과 졸업
+  date: 20xx.03 - 20xx.02
+  content: 나에대한 간단한 설명글 
+- title: m HIGH SCHOOL
+  subtitle: xx고등학교
+  date: 20xx.03 - 20xx.02
+  content: >-
+    설명글
+    설명글
+    설명글
+    설명글
+
+
+# Blog
+blog_meta: self-improvement
+blog_header: BLOG 
+blog_load_more: 더 발전하기 위해 항상 노력합니다    # 더보기 내용
+blog_load_more_url: #
+blog_list:
+- title: 박상훈의 블로그
+  subtitle: 개발 블로그
+  date: 2021.01
+  content: 목표에 더욱 가까워지기 위해서 공부한 내용들의 흔적을 남기기위해 운영하는 블로그입니다.
+  thumbnail_url: images/blog-1.PNG
+  link: https://sanghoonsc.github.io
+
+
+# Contact
+contact_meta: Get in Touch
+contact_header: Contact
+contact_list:
+- title: 1235parksh@naver.com
+  icon: icon-globe-outline
+- title: 서울시
+  icon: icon-map
+- title: +82 10 xxxx xxxx
+  icon: icon-phone
+- title: 웹 
+  icon: icon-layers2
+  url: https://google.com
+contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
+
+
+
+optional_front_matter:
+  remove_originals:    true
